@@ -7,7 +7,7 @@ import com.mindtree.carapp.exception.ServiceException;
 
 public interface CarService {
 	
-	public String addCar(Car car) throws ServiceException;
+	public String addCar(Car car) throws ServiceException
 	
 	public Car getCarById(int carId) throws ServiceException;
 
